@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Регистрационная анкета</h1>
+<form action="" method="post"></form>
+    Имя:<input type="text" autofocus id="name" name="name" required>
+    <br>
+    <br>
+    Почта: <input type="email" id="email" name="email" 
+    required placeholder="test@mall.ru">
+    <br>
+    <br>
+    Сайт: <input type="url" id="website" name="website"
+     required placeholder="http://testurl.com">
+     <br>
+     <br>
+    <abbr title="Цифра и три буквы латинского алфавита">Идентификатор:</abbr>
+    <input type="text" id="ID" required name="ID" pattern="[0-9][A-Z]{3}"
+     placeholder="1ABC">
+
+     <br>
+     <br>
+     Страна:
+     <input list="Countries" placeholder="Country Name">
+     <datalist id="Countries">
+        <option value="Россия">
+        <option value="Казахстан">
+        <option value="Украина">
+        <option value="Белоруссия">
+        <option value="Латвия">
+     </datalist>
+<br>
+<br>
+<abbr title="Число от 18 до 75">Возраст:</abbr>
+<input type="number" id="Age" name="Age" required min="18" max="75">
+<br>
+<br>
+Любимый цвет: <input type="color" id="Color" name="Color">
+<br>
+<br>
+Дата рождения:<input type="date" id="Data" name="Data">
+<br>
+<br>
+Неделя:<input type="week" id="Week" name="Week">
+<br>
+<br>
+Месяц:<input type="mouth" id="Mouth" name="Mouth">
+<br>
+<br>
+Время:<input type="time" id="Time" name="Time">
+<br>
+<br>
+Дата и время:<input type="datetime-local" id="datetime" name="datetime">
+<br>
+<br>
+ 
+<p style="background:gray; border:1px gray  solid;width:75px;">Отправить</p>
+
+   
+</body>
+</html>
